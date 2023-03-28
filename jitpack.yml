@@ -3,4 +3,5 @@ jdk:
 install:
    - echo "Running a custom install command"
    - cd media/json-jackson
+   - mvn versions:set -DnewVersion=2.35
    - mvn clean install
