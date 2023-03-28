@@ -47,6 +47,9 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 
+import java.lang.reflect.ParameterizedType;
+import java.util.concurrent.CompletionStage;
+
 public abstract class ProviderBase<
         THIS extends ProviderBase<THIS, MAPPER, EP_CONFIG, MAPPER_CONFIG>,
         MAPPER extends ObjectMapper,
