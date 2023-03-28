@@ -94,12 +94,12 @@
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
             <artifactId>jersey-common</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.ext</groupId>
             <artifactId>jersey-entity-filtering</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <!--<dependency>-->
@@ -131,7 +131,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.test-framework.providers</groupId>
             <artifactId>jersey-test-framework-provider-bundle</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
             <type>pom</type>
             <scope>test</scope>
         </dependency>
