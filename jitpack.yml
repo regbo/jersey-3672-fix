@@ -1,7 +1,7 @@
 jdk:
   - openjdk11
 install:
-   - echo "Running a custom install command"
+   - echo "building submodule"
    - cd media/json-jackson
    - mvn versions:set -DnewVersion=2.35
    - mvn clean install
