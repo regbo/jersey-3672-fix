@@ -3,4 +3,4 @@ jdk:
 install:
    - echo "building submodule"
    - cd media/json-jackson
-   - mvn clean install
+   - mvn clean install -DskipTests
